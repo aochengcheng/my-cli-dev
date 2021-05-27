@@ -1,0 +1,10 @@
+31 error Error: Command failed with exit code 1: git add -- packages/utils/package.json packages/core/package.json packages/core/package-lock.json lerna.json
+31 error 下列路径根据您的一个 .gitignore 文件而被忽略：
+31 error packages/core/package-lock.json
+31 error 提示：如果您确实要添加它们，使用 -f 参数。
+31 error 提示：运行下面的命令来关闭本消息
+31 error 提示："git config advice.addIgnoredFile false"
+31 error     at makeError (/Users/chengzi/Desktop/慕课demo/my-cli-dev/my-cli-dev/node_modules/execa/lib/error.js:59:11)
+31 error     at handlePromise (/Users/chengzi/Desktop/慕课demo/my-cli-dev/my-cli-dev/node_modules/execa/index.js:114:26)
+31 error     at processTicksAndRejections (internal/process/task_queues.js:93:5)
+31 error     at async Promise.all (index 0)

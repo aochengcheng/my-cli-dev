@@ -1,6 +1,6 @@
 {
   "name": "@cli-dev-ac/core",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "cli-dev-ac core",
   "author": "togetherEnjoy <1156438031@qq.com>",
   "homepage": "",
@@ -17,6 +17,6 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@cli-dev-ac/utils": "1.0.0"
+    "@cli-dev-ac/utils": "^1.0.1"
   }
 }

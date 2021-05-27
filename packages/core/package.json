@@ -18,5 +18,6 @@
   },
   "dependencies": {
     "@cli-dev-ac/utils": "^1.0.2"
-  }
+  },
+  "gitHead": "075fe7df80eb5ee70dbfa34bb69a368b93ac93c3"
 }

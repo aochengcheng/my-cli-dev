@@ -1,6 +1,6 @@
 {
   "name": "@cli-dev-ac/dog",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "dogs",
   "keywords": [
     "dog"
@@ -17,7 +17,7 @@
     "lib"
   ],
   "dependencies": {
-    "@cli-dev-ac/utils": "1.0.3"
+    "@cli-dev-ac/utils": "^1.0.4"
   },
   "publishConfig": {
     "access": "public"

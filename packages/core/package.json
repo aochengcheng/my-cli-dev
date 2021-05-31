@@ -1,6 +1,6 @@
 {
   "name": "@cli-dev-ac/core",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "cli-dev-ac core",
   "author": "togetherEnjoy <1156438031@qq.com>",
   "homepage": "",
@@ -20,9 +20,9 @@
     "test": "echo \"Error: run tests from root\""
   },
   "dependencies": {
+    "@cli-dev-ac/dog": "^1.0.4",
     "lodash": "^4.17.21",
-    "test": "^0.6.0",
-    "@cli-dev-ac/dog": "1.0.3"
+    "test": "^0.6.0"
   },
   "gitHead": "a51bb6803ded17ccbfe78b4cde68bedad57382dc",
   "publishConfig": {

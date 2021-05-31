@@ -5,6 +5,9 @@
   "author": "togetherEnjoy <1156438031@qq.com>",
   "homepage": "",
   "license": "ISC",
+  "bin": {
+    "dev-cli": "bin/index.js"
+  },
   "main": "lib/core.js",
   "directories": {
     "lib": "lib",
@@ -14,10 +17,12 @@
     "lib"
   ],
   "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
+    "test": "echo \"Error: run tests from root\""
   },
   "dependencies": {
-    "@cli-dev-ac/utils": "^1.0.3"
+    "lodash": "^4.17.21",
+    "test": "^0.6.0",
+    "@cli-dev-ac/dog": "1.0.3"
   },
   "gitHead": "a51bb6803ded17ccbfe78b4cde68bedad57382dc",
   "publishConfig": {

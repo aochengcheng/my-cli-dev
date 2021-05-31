@@ -1,11 +1,14 @@
 {
-  "name": "@cli-lib-ac/test",
+  "name": "@cli-dev-ac/dog",
   "version": "1.0.3",
-  "description": "test",
+  "description": "dogs",
+  "keywords": [
+    "dog"
+  ],
   "author": "togetherEnjoy <1156438031@qq.com>",
   "homepage": "https://github.com/togetherEnjoy/my-cli-dev#readme",
   "license": "ISC",
-  "main": "lib/test.js",
+  "main": "lib/dog.js",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
@@ -13,6 +16,9 @@
   "files": [
     "lib"
   ],
+  "dependencies": {
+    "@cli-dev-ac/utils": "1.0.3"
+  },
   "publishConfig": {
     "access": "public"
   },
@@ -25,10 +31,5 @@
   },
   "bugs": {
     "url": "https://github.com/togetherEnjoy/my-cli-dev/issues"
-  },
-  "gitHead": "a51bb6803ded17ccbfe78b4cde68bedad57382dc",
-  "dependencies": {
-    "lodash": "^4.17.21",
-    "test": "^0.6.0"
   }
 }

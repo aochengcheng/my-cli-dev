@@ -3,5 +3,6 @@
 module.exports = dog;
 
 function dog() {
-    // TODO
+  let dog = 'dos';
+  // TODO
 }
